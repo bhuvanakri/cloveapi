@@ -29,8 +29,8 @@ public class MockHealthResponse {
     {
         ReadDataListResponse response = new ReadDataListResponse();
         List<ReadDataResponse> readDataResponses = new ArrayList<ReadDataResponse>();
-        ReadDataResponse dataresponse = new ReadDataResponse();
-        readDataResponses.add(dataresponse);
+        readDataResponses.add(mockReadDataResponse());
+        readDataResponses.add(mockReadDataResponse());
         response.setReadDataResponseList(readDataResponses);
         return response;
     }
