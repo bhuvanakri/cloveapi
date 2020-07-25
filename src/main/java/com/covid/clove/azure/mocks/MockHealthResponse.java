@@ -77,9 +77,9 @@ public class MockHealthResponse {
     public static HealthHistoryResponse mockHealthHistory()
     {
         HealthHistoryResponse response = new HealthHistoryResponse();
-       response.setCardio("Good Heart condition");
+       /*response.setCardio("Good Heart condition");
        response.setPhysio("Arthitis history observed");
-       response.setDiabetes("In insulin administration with 3mm per day");
+       response.setDiabetes("In insulin administration with 3mm per day");*/
         //to mock
         return response;
     }
