@@ -65,7 +65,7 @@
 			<artifactId>google-api-client</artifactId>
 			<version>1.30.9</version>
 		</dependency>
-		<dependency> <groupId>com.squareup.okio</groupId> <artifactId>okio</artifactId> <version>1.11.0</version> </dependency> <dependency> <groupId>com.squareup.okhttp3</groupId> <artifactId>okhttp</artifactId> <version>3.5.0</version> </dependency>
+		<dependency> <groupId>com.squareup.okio</groupId> <artifactId>okio</artifactId> <version>3.4.0</version> </dependency> <dependency> <groupId>com.squareup.okhttp3</groupId> <artifactId>okhttp</artifactId> <version>3.5.0</version> </dependency>
 		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
